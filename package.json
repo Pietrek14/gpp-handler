@@ -4,6 +4,10 @@
 	"description": "Adds GUI for compiling one source file C++ programs with g++",
 	"publisher": "DawidPiotrowski",
 	"version": "1.0.1",
+	"repository": {
+		"url": "https://github.com/Pietrek14/gpp-handler.git"
+	},
+	"icon": "media/logo.png",
 	"engines": {
 		"vscode": "*"
 	},
