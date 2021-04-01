@@ -32,4 +32,12 @@ Initial release.
 
 Bugfix lol.
 
+### 1.0.2
+
+Added repository.
+
+### 1.0.3
+
+Another bugfix lmao.
+
 **Enjoy!**
