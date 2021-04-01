@@ -3,7 +3,7 @@
 	"displayName": "gpp-handler",
 	"description": "Adds GUI for compiling one source file C++ programs with g++",
 	"publisher": "DawidPiotrowski",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"repository": {
 		"url": "https://github.com/Pietrek14/gpp-handler.git"
 	},
