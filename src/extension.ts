@@ -61,19 +61,19 @@ function compileFile(): void {
 		const compilerPath = config.get("compilerpath");
 		if (compilerPath == null) {
 			terminal.sendText(
-				`g++ ${vscode.window.activeTextEditor?.document.fileName} -o ${filename}`
+				`g++ "${vscode.window.activeTextEditor?.document.fileName}" -o "${filename}"`
 			);
 		} else {
 			terminal.sendText(
-				`& ${compilerPath} ${vscode.window.activeTextEditor?.document.fileName} -o ${filename}`
+				`& ${compilerPath} "${vscode.window.activeTextEditor?.document.fileName}" -o "${filename}"`
 			);
 		}
 
 		if (config.get("autorun")) {
 			terminal.sendText(
-				`& ${path.dirname(
+				`& "${path.dirname(
 					vscode.window.activeTextEditor.document.uri.fsPath
-				)}\\${filename}`
+				)}\\${filename}"`
 			);
 		}
 		vscode.window.showInformationMessage("Compiled successfully!");
